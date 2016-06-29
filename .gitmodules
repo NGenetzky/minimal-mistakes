@@ -1,0 +1,4 @@
+[submodule "sample"]
+	path = sample
+	url = https://github.com/NGenetzky/minimal-mistakes.git
+	branch = sample
