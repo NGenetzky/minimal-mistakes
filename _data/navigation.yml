@@ -21,21 +21,14 @@ foo:
 
 # main links links
 main:
-  - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
-
   - title: "About"
     url: /about/
 
-  - title: "Sample Posts"
+  - title: "Posts By-Year"
     url: /year-archive/
 
-  - title: "Sample Collections"
+  - title: "Collections"
     url: /collection-archive/
-
-  - title: "Terms &amp; Privacy Policy"
-    url: /terms/
-
 
 # documentation links
 docs:
