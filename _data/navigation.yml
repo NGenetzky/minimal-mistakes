@@ -38,7 +38,7 @@ main:
 
 
 # documentation links
-docs:
+sample_docs:
   - title: Getting Started
     children:
       - title: "Quick-Start Guide"

@@ -148,7 +148,7 @@ kramdown:
 
 # Collections
 collections:
-  docs:
+  sample_docs:
     output: true
     permalink: /:collection/:path/
   portfolio:
@@ -176,10 +176,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _docs
+  # _sample_docs
   - scope:
       path: ""
-      type: docs
+      type: sample_docs
     values:
       layout: single
       read_time: false
@@ -187,7 +187,7 @@ defaults:
       share: false
       comments: false
       sidebar:
-        nav: "docs"
+        nav: "sample_docs"
   # _portfolio
   - scope:
       path: ""
