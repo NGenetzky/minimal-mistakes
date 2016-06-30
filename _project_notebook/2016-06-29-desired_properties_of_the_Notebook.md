@@ -8,7 +8,7 @@ tags:
   - tags
   - project_notebook
 date:   2016-05-10
-published: true
+published: false
 
 # User
 Title:  Desired properties of the Notebook  
