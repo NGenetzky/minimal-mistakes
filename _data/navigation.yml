@@ -31,10 +31,10 @@ main:
     url: /collection-archive/
 
   - title: "By Category"
-    url: /category-archive/
+    url: /categories/
 
   - title: "By Tag"
-    url: /tag-archive/
+    url: /tags/
 
 # documentation links
 docs:
