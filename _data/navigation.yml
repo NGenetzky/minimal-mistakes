@@ -30,6 +30,12 @@ main:
   - title: "Collections"
     url: /collection-archive/
 
+  - title: "By Category"
+    url: /category-archive/
+
+  - title: "By Tag"
+    url: /tag-archive/
+
 # documentation links
 docs:
   - title: Getting Started
