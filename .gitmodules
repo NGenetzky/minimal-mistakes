@@ -2,3 +2,7 @@
 	path = sample
 	url = https://github.com/NGenetzky/minimal-mistakes.git
 	branch = sample
+[submodule "project_notebook"]
+	path = project_notebook
+	url = https://github.com/NGenetzky/project_notebook.git
+	branch = public
