@@ -36,7 +36,7 @@ modified: 2016-06-01
 {% include base_path %}
 {% include toc icon="gears" title="Helpers" %}
 
-You can think of these Jekyll helpers as little shortcuts. Since GitHub Pages doesn't allow most plugins --- [custom tags](https://jekyllrb.com/docs/plugins/#tags) are out. Instead the theme leverages [**includes**](https://jekyllrb.com/docs/templates/#includes) to do something similar.
+You can think of these Jekyllhelpers as little shortcuts. Since GitHub Pages doesn't allow most plugins --- [custom tags](https://jekyllrb.com/docs/plugins/#tags) are out. Instead the theme leverages [**includes**](https://jekyllrb.com/docs/templates/#includes) to do something similar.
 
 ## Base Path
 
@@ -108,7 +108,9 @@ And then drop-in the gallery include in the body where you'd like it to appear.
 
 {% include gallery caption="This is a sample gallery with **Markdown support**." %}
 
-**More Gallery Goodness:** A few more examples and [source code]({{ site.gh_repo }}/gh-pages/_posts/2010-09-09-post-gallery.md) can be seen in [this sample gallery post]({{ base_path }}{% post_url 2010-09-09-post-gallery %}).
+**More Gallery Goodness:** A few more examples and
+[source code]({{ site.gh_repo }}/blob/sample/_posts/2010-09-09-post-gallery.md) can be seen in
+[this sample gallery post]({{ base_path }}/sample/post%20formats/post-gallery/).
 {: .notice--info}
 
 ## Feature Row
