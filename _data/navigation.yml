@@ -27,8 +27,8 @@ main:
   - title: "Posts By-Year"
     url: /year-archive/
 
-  - title: "Collections"
-    url: /collection-archive/
+  # - title: "Collections" # Currently there are no Collections
+  #   url: /collection-archive/
 
   - title: "Categories"
     url: /categories/

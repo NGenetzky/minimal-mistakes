@@ -151,12 +151,12 @@ kramdown:
 
 # Collections
 collections:
-  sample_docs:
-    output: true
-    permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
+  # sample_docs: # Utilizes a symlink and therefore won't work if build by github.
+  #   output: true
+  #   permalink: /:collection/:path/
 
 
 # Defaults
