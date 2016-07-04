@@ -11,10 +11,8 @@ title                    : "Genetzky's Gitbook"
 title_separator          : "-"
 name                     : &name "Nathan Genetzky"
 description              : &description "description"
-url                      : "" # https://ngenetzky.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # "/minimal-mistakes" # the subpath of your site, e.g. "/blog"
-# url                      : https://ngenetzky.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-# baseurl                  : "/minimal-mistakes" # the subpath of your site, e.g. "/blog"
+url                      : https://ngenetzky.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/minimal-mistakes" # the subpath of your site, e.g. "/blog"
 gh_repo                  : "https://github.com/ngenetzky/minimal-mistakes/blob"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
@@ -151,12 +149,12 @@ kramdown:
 
 # Collections
 collections:
-  sample_docs:
-    output: true
-    permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
+  # sample_docs: # Utilizes a symlink and therefore won't work if build by github.
+  #   output: true
+  #   permalink: /:collection/:path/
 
 
 # Defaults
