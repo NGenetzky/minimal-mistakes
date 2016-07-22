@@ -49,7 +49,7 @@ The assembly code was required more time to write because the language was close
 
 Our flowchart for the C program is shown in Figure 1. The definition of HighTemp and LowTemp varied between C and ASM. In C the temperature variable is defined in degrees Celsius, however in ASM it is defined in A2D digital output. Any box involving LCD should be disregarded for the ASM flowchart but otherwise the logical flow is the same between C and ASM.
 
-<img src="./media/image1.png" width="493" height="504" />
+<img src="/images/2015-03-26-ee347-project-report-media/image1.png" width="493" height="504" />
 
 Figure Program Flowchart
 
@@ -92,7 +92,7 @@ After finishing the C and ASM versions of the project, it was seen that there wa
 
 The response of the thermistors were very inconsistent. It was important to use the same thermistor throughout the project so there were fewer adjustments to the project; however it was found that even using the same thermistor did not guarantee consistent output. It was realized that some thermistors were MCP9700 while some were MCP9701. This caused issues because the graphs for the output voltage are quite different. Values had to be constantly tweaked to obtain smaller error in temperatures, between the set temperature and the actual temperature of the teakettle.
 
-<img src="./media/image2.png" width="435" height="291" />
+<img src="/images/2015-03-26-ee347-project-report-media/image2.png" width="435" height="291" />
 
 Figure Thermistor Output Voltage vs Ambient Temperature
 
@@ -100,7 +100,7 @@ Results were quite satisfactory for the performances of both the C version and t
 
 In order to increase the resolution of the measurement the voltage reference capability of the A2D was implemented. A voltage divider was created using a 1.1 K*Ω* and 2.2*K**Ω* resistor to create a voltage of 1.6V on the Vref+ pin (AN3). This decreased the range that the A2D expects from \[0:5\]V to \[0:1.6\]V which increases the resolution.
 
-<img src="./media/image3.png" width="100" height="139" />
+<img src="/images/2015-03-26-ee347-project-report-media/image3.png" width="100" height="139" />
 
 Figure Voltage divider for A2D. Vout is RA3 and Vin is +5V.
 
