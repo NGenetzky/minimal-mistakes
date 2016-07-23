@@ -23,8 +23,8 @@ The theme includes responsive layouts (`single`, `archive`, and `splash` pages) 
 
 {% include gallery id="layouts_gallery" caption="Examples of included layouts `splash`, `single`, and `archive`." %}
 
-[Install the Theme]({{ base_path }}/docs/quick-start-guide/){: .btn .btn--success .btn--large}
-
+[Install the Theme](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/){: .btn .btn--success .btn--large}
+<!-- {{ base_path }}/docs/quick-start-guide/ -->
 ## Notable Features
 
 - Compatible with Jekyll 3.x and GitHub Pages
