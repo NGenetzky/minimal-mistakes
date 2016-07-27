@@ -21,8 +21,8 @@ foo:
 
 # main links links
 main:
-  - title: "About"
-    url: /about/
+  # - title: "About"
+  #   url: /about/
 
   - title: "Projects"
     url: /project_notebook/
@@ -33,8 +33,8 @@ main:
   # - title: "Collections" # Currently there are no Collections
   #   url: /collection-archive/
 
-  - title: "Categories"
-    url: /categories/
+  # - title: "Categories"
+  #   url: /categories/
 
   - title: "Tags"
     url: /tags/
